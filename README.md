@@ -26,13 +26,13 @@ npm exec i18n-compile
 
 ## Configuration
 
-This package requires a specific configuration file `i18n.config.js` to be created in your project's root directory. This is to customize the utility to your project's specific needs.
+This package requires a specific configuration file `i18n.config.js` to be created in your project's root directory. This is to customize the utility to your project's specific needs. All the fields are optional.
 
 ### Example `i18n.config.js`
 
 ```js
 exports default {
-  languages: ['en', 'nb'],
+  languages: ['en', 'fr'],
   sourceFiles: 'src/**/*.{ts,tsx,js,jsx}',
   ignore: '**/*.d.ts',
   targetFolder: 'src/lang',
