@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+
 import { mkdir, readFile, writeFile } from 'fs/promises';
 import { EOL } from 'os';
 import { resolve } from 'path';
+
 import { glob } from 'glob';
 import { extract } from '@formatjs/cli-lib';
 

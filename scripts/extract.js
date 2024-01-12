@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { glob } from 'glob';
 import { extract } from '@formatjs/cli-lib';
 
