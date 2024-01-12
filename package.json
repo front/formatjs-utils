@@ -1,11 +1,15 @@
 {
-  "name": "formatjs-utils",
+  "name": "@frontkom/formatjs-utils",
   "version": "0.0.0",
   "description": "Collection of formatjs helpers for React projects",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext js ."
+  },
+  "bin": {
+    "i18n-extract": "./scripts/extract.js",
+    "i18n-compile": "./scripts/compile.js"
   },
   "dependencies": {
     "@formatjs/cli-lib": "^6.3.3",
