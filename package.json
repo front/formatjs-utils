@@ -7,6 +7,10 @@
   "scripts": {
     "lint": "eslint --ext js ."
   },
+  "dependencies": {
+    "@formatjs/cli-lib": "^6.3.3",
+    "glob": "^10.3.10"
+  },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-prettier": "^5.1.3",

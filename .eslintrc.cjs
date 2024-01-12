@@ -9,7 +9,9 @@ module.exports = {
   },
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-  rules: {},
+  rules: {
+    'no-console': 'error',
+  },
   overrides: [
     {
       files: ['.eslintrc.{js,cjs}'],
