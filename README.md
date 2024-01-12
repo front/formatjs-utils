@@ -31,7 +31,7 @@ This package requires a specific configuration file `i18n.config.js` to be creat
 ### Example `i18n.config.js`
 
 ```js
-exports default {
+module.exports = {
   languages: ['en', 'fr'],
   sourceFiles: 'src/**/*.{ts,tsx,js,jsx}',
   ignore: '**/*.d.ts',
