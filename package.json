@@ -1,0 +1,16 @@
+{
+  "name": "formatjs-utils",
+  "version": "0.0.0",
+  "description": "Collection of formatjs helpers for React projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front/formatjs-utils.git"
+  },
+  "author": "Elio Cro <elio@eliocro.dev>",
+  "license": "MIT"
+}
