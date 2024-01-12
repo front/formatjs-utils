@@ -1,6 +1,6 @@
 {
   "name": "@frontkom/formatjs-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Collection of formatjs helpers for React projects",
   "type": "module",
   "main": "index.js",
