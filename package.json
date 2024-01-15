@@ -24,6 +24,20 @@
     "type": "git",
     "url": "git+https://github.com/front/formatjs-utils.git"
   },
+  "keywords": [
+    "formatjs",
+    "react-intl",
+    "intl",
+    "i18n",
+    "internationalization",
+    "locale",
+    "localization",
+    "translate",
+    "translation",
+    "utils",
+    "extract",
+    "compile"
+  ],
   "author": "Elio Cro <elio@eliocro.dev>",
   "license": "MIT"
 }
