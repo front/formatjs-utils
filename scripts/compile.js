@@ -4,7 +4,7 @@ import { mkdir, readFile, writeFile } from 'fs/promises';
 import { EOL } from 'os';
 import { resolve } from 'path';
 
-import { glob } from 'glob';
+import { globby } from 'globby';
 import { extract } from '@formatjs/cli-lib';
 
 import getConfig from './getConfig.js';
@@ -12,7 +12,10 @@ import getConfig from './getConfig.js';
 (async () => {
   const options = await getConfig();
 
-  const files = await glob(options.sourceFiles, { ignore: options.ignore });
+  const files = await globby([
+    options.sourceFiles,
+    `!${options.ignore || '*'}`,
+  ]);
   const extracted = JSON.parse(await extract(files, { throws: true }));
 
   const folder = resolve(options.targetFolder);
